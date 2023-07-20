@@ -26,6 +26,7 @@
     "typescript": "*"
   },
   "dependencies": {
+    "@types/mongoose": "^5.11.97",
     "fastify": "^4.20.0",
     "mongoose": "^7.4.0"
   }
