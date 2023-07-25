@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it } from "vitest";
 import Pet from "../../models/Pets";
 import fastify from "fastify";
 import axios from "axios";
@@ -80,5 +80,9 @@ describe("Create a Pet", () => {
       // Se ocorrer algum erro na requisição, exiba-o no console
       console.error("Erro na requisição: " + error);
     }
+  });
+  
+  afterEach(async () => {
+    await server.close();
   });
 });
