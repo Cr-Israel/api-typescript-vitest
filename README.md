@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrandfetch.com%2Ffastify.io&psig=AOvVaw3YPipimSC4ACk5NRW7JPyd&ust=1690398867738000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjyi9XIqoADFQAAAAAdAAAAABAI" 
+  <img src="https://asset.brandfetch.io/idkHQKUAvE/idyjPqBNgh.jpeg?updated=1687970710299" 
     width=256 alt="GIMP">
   <br />
   API-TypeScript-Vitest | <a href="https://github.com/Cr-Israel/api-typescript-vitest">Acessar</a>
@@ -24,10 +24,59 @@ It brings everything best, as Fastify's speed ensures quick and efficient respon
 
 1. Access https://github.com/Cr-Israel/api-typescript-vitest
 2. Clone the project to your local machine:
-   1. git clone
+  I. git clone
 3. Start the project:
-   1. npm start
-   2. yarn start
+  I. npm start
+  II. yarn start
 4. Add your database credentials.
 
-# How it looks?
+<p align="center">
+  <p>Variação 1</p>
+  <img src="C:\Users\carlo\Downloads\npm start.gif.gif">
+  <p>Variação 2</p>
+  <img src="C:\Users\carlo\Downloads\yarn start.gif.gif">
+</p>
+
+# How to install?
+
+<details>
+  <summary><b>Windows</b></summary>
+  <br>
+  <p>To perform the installation via Windows:</p>
+   <ol>
+      <li>Make sure you have Node installed on your machine</li>
+      <li>node --version</li>
+      <li>Clone this repository</li>
+      <li>Enter the repository</li>
+      <li>Run the command npm/yarn start</li>
+      <li>Project is running</li>
+   </ol>
+  <br>
+</details>
+
+# What's left to do?
+
+- [x] Create entities
+- [x] Apply unit tests
+- [x] Database integration
+  - [ ] Create a Front-End application
+     - [ ] SPA integration
+     - [ ] Deploy to production
+
+# Credits
+
+| Usuário                                   |     Contribution      |
+|-------------------------------------------|-----------------------|
+| [Cr-Israel](https://github.com/Cr-Israel) | Did the whole project |
+
+# Contributions
+
+Every Contribution is welcome, feel free to make a pull request!
+
+# Feedbacks
+
+All feedback is welcome, feel free to contribute and give your constructive criticism!
+
+# Conclusion
+
+This was the API-TypeScript-Vitest project.
