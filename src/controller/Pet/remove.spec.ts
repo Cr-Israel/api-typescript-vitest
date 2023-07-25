@@ -24,12 +24,12 @@ describe("Remove a Pet", () => {
     try {
       const response = await axios.delete(`/delete-pet/${pet._id}`);
 
-      // Verifica se a resposta tem status 200 (OK)
+      // Check if the response has status 200 (OK)
       expect(response.status).toBe(200);
 
-      // Verifica se o pet foi removido do banco de dados
+      // Checks if the pet was removed from the database
       const removedPet = await Pet.findById(pet._id);
-      expect(removedPet).toBeNull(); // Verifica se o pet não foi encontrado no banco de dados
+      expect(removedPet).toBeNull(); // Checks if the pet was not found in the database
     } catch (error) {
       console.error("Erro na requisição: " + error);
     }
@@ -38,7 +38,7 @@ describe("Remove a Pet", () => {
       try {
         const response = await axios.delete(`/delete-pet/87484916164161651`);
 
-        // Verifica se a resposta tem status 404 (Not Found) ou algum outro status de erro apropriado
+        // Checks whether the response has a 404 (Not Found) status or some other appropriate error status
         expect(response.status).toBe(404);
       } catch (error) {
         console.error("Erro na requisição: " + error);

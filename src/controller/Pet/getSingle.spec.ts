@@ -18,10 +18,10 @@ describe("Get a Single Pet", () => {
   it("should get a single pet by id", async () => {
     try {
       const response = await axios.get("/get-single-pet/:id");
-      // Verifica se a resposta tem status 200 (OK)
+      // Check if the response has status 200 (OK)
       expect(response.status).toBe(200);
 
-      // Verifica se a resposta contém os dados esperados dos pets
+      // Checks that the response contains the expected data from the pets
       expect(response.data).toContain(Pet);
     } catch (error) {
       console.error("Erro na requisição: " + error);

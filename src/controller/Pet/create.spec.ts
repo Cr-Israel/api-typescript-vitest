@@ -31,15 +31,15 @@ describe("Create a Pet", () => {
         age: "2 anos",
         description: "Um lindo Pastor Alemão!",
       });
-      // Verifique se a resposta tem status 400 (Bad Request)
+      // Check if the response has status 400 (Bad Request)
       expect(response.status).toBe(400);
 
-      // Verifique a mensagem de erro na resposta
+      // Check if the response has error
       expect(response.data.message).toBe(
         "O nome é obrigatório, tente novamente!"
       );
     } catch (error) {
-      // Se ocorrer algum erro na requisição, exiba-o no console
+      // If an error occurs in the request, it will be displayed in the console
       console.error("Erro na requisição: " + error);
     }
   });
@@ -50,15 +50,15 @@ describe("Create a Pet", () => {
         age: "",
         description: "Um lindo Pastor Alemão!",
       });
-      // Verifique se a resposta tem status 400 (Bad Request)
+      // Check if the response has status 400 (Bad Request)
       expect(response.status).toBe(400);
 
-      // Verifique a mensagem de erro na resposta
+      // Check if the response has error
       expect(response.data.message).toBe(
         "O nome é obrigatório, tente novamente!"
       );
     } catch (error) {
-      // Se ocorrer algum erro na requisição, exiba-o no console
+      // If an error occurs in the request, it will be displayed in the console
       console.error("Erro na requisição: " + error);
     }
   });
@@ -69,15 +69,15 @@ describe("Create a Pet", () => {
         age: "2 anos",
         description: "",
       });
-      // Verifique se a resposta tem status 400 (Bad Request)
+      // // Check if the response has status 400 (Bad Request)
       expect(response.status).toBe(400);
 
-      // Verifique a mensagem de erro na resposta
+      // Check if the response has error
       expect(response.data.message).toBe(
         "O nome é obrigatório, tente novamente!"
       );
     } catch (error) {
-      // Se ocorrer algum erro na requisição, exiba-o no console
+      // If an error occurs in the request, it will be displayed in the console
       console.error("Erro na requisição: " + error);
     }
   });

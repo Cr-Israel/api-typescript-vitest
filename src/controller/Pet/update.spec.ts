@@ -24,10 +24,10 @@ describe("Update a Pet", () => {
     try {
       const response = await axios.patch(`/update-pet/${pet._id}`);
 
-      // Verifica se a resposta tem status 200 (OK)
+      // Checks if the response has status 200 (OK)
       expect(response.status).toBe(200);
 
-      // Verifica se a resposta contém os dados esperados dos pets
+      // Checks that the response contains the expected data from the pets
       expect(response.data).toContainEqual({
         name: "Pet1",
         age: "2 years",
