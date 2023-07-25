@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://www.typescriptlang.org/images/branding/logo-grouping.svg" 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" 
     width=256 alt="GIMP">
   <br />
   API-TypeScript-Vitest | <a href="https://github.com/Cr-Israel/api-typescript-vitest">Acessar</a>
@@ -32,9 +32,9 @@ It brings everything best, as Fastify's speed ensures quick and efficient respon
 
 <p align="center">
   <p>Variação 1</p>
-  <img src="C:\Users\carlo\Downloads\npm start.gif.gif">
+  <img src="assets/images/npm start.gif.gif">
   <p>Variação 2</p>
-  <img src="C:\Users\carlo\Downloads\yarn start.gif.gif">
+  <img src="assets/images/yarn start.gif.gif">
 </p>
 
 # How to install?
@@ -52,7 +52,9 @@ It brings everything best, as Fastify's speed ensures quick and efficient respon
       <li>Project is running</li>
    </ol>
   <br>
-  <summary><b>Unix</b></summary>
+</details>
+<details>
+ <summary><b>Unix</b></summary>
   <br>
   <p>To perform the installation via Linux or MacOs:</p>
    <ol>
