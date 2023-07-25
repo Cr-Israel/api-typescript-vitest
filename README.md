@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://asset.brandfetch.io/idkHQKUAvE/idyjPqBNgh.jpeg?updated=1687970710299" 
+  <img src="https://www.typescriptlang.org/images/branding/logo-grouping.svg" 
     width=256 alt="GIMP">
   <br />
   API-TypeScript-Vitest | <a href="https://github.com/Cr-Israel/api-typescript-vitest">Acessar</a>
@@ -43,6 +43,21 @@ It brings everything best, as Fastify's speed ensures quick and efficient respon
   <summary><b>Windows</b></summary>
   <br>
   <p>To perform the installation via Windows:</p>
+   <ol>
+      <li>Make sure you have Node installed on your machine</li>
+      <li>node --version</li>
+      <li>Clone this repository</li>
+      <li>Enter the repository</li>
+      <li>Run the command npm/yarn start</li>
+      <li>Project is running</li>
+   </ol>
+  <br>
+</details>
+
+<details>
+  <summary><b>Unix</b></summary>
+  <br>
+  <p>To perform the installation via Linux or MacOs:</p>
    <ol>
       <li>Make sure you have Node installed on your machine</li>
       <li>node --version</li>
