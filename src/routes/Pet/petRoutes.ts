@@ -1,7 +1,7 @@
 import { FastifyInstance } from "fastify";
 import { Create } from "../../controller/Pet/Create";
-import { getAllPets } from "../../controller/Pet/getAllPets";
-import { getSinglePet } from "../../controller/Pet/getSinglePet";
+import { getAllPets } from "../../controller/Pet/getAll";
+import { getSinglePet } from "../../controller/Pet/getSingle";
 
 export async function petRoutes(server: FastifyInstance) {
   // Create a Pet

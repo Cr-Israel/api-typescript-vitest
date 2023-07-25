@@ -1,6 +1,6 @@
 import fastify from "fastify";
 import { afterEach, describe, expect, it } from "vitest";
-import { getSinglePet } from "./getSinglePet";
+import { getSinglePet } from "./getSingle";
 import axios from "axios";
 import Pet from "../../models/Pets";
 
