@@ -35,6 +35,11 @@ export async function Create(req: FastifyRequest, reply: FastifyReply) {
     await pet.save();
     reply.code(201).send({ message: "Pet criado com sucesso!" });
   } catch (error) {
+    reply
+      .code(400)
+      .send({
+        messaege: "Erro na criação do Pet, por favor tentar mais tarde!",
+      });
     console.error("Erro na criação do pet: " + error);
   }
 }
