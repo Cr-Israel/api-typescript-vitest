@@ -18,10 +18,10 @@ describe("Get All Pets", () => {
   it("should get all pets", async () => {
     try {
       const response = await axios.get("get-all-pets");
-      // Verifique se a resposta tem status 200 (OK)
+      // Verifica se a resposta tem status 200 (OK)
       expect(response.status).toBe(200);
 
-      // Verifique se a resposta contém os dados esperados dos pets
+      // Verifica se a resposta contém os dados esperados dos pets
       expect(response.data).toContain(Pet);
     } catch (error) {
       console.error("Erro na requisição: " + error);
