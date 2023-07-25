@@ -52,9 +52,6 @@ It brings everything best, as Fastify's speed ensures quick and efficient respon
       <li>Project is running</li>
    </ol>
   <br>
-</details>
-
-<details>
   <summary><b>Unix</b></summary>
   <br>
   <p>To perform the installation via Linux or MacOs:</p>
