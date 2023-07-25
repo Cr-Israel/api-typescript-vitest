@@ -7,7 +7,7 @@ import Pet from "../../models/Pets";
 describe("Get a Single Pet", () => {
   const server = fastify();
 
-  server.get("/get-single-pet/id", async (req, reply) => {
+  server.get("/get-single-pet/:id", async (req, reply) => {
     try {
       await getSinglePet(req, reply);
     } catch (error) {
@@ -17,7 +17,7 @@ describe("Get a Single Pet", () => {
 
   it("should get a single pet by id", async () => {
     try {
-      const response = await axios.get("/get-single-pet/id");
+      const response = await axios.get("/get-single-pet/:id");
       // Verifica se a resposta tem status 200 (OK)
       expect(response.status).toBe(200);
 
