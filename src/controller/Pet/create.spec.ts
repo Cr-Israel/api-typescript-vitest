@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it } from "vitest";
 import Pet from "../../models/Pets";
 import fastify from "fastify";
 import axios from "axios";
-import { Create } from "./Create";
+import { Create } from "./create";
 
 describe("Create a Pet", () => {
   it("Should be able to create a pet", () => {

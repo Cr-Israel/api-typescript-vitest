@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-import { Create } from "../../controller/Pet/Create";
+import { Create } from "../../controller/Pet/create";
 import { getAllPets } from "../../controller/Pet/getAll";
 import { getSinglePet } from "../../controller/Pet/getSingle";
 import { update } from "../../controller/Pet/update";
