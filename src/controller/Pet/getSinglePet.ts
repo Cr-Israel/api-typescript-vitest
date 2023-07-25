@@ -1,5 +1,5 @@
 import { FastifyReply, FastifyRequest } from "fastify";
-import Pet from "../models/Pets";
+import Pet from "../../models/Pets";
 
 export async function getSinglePet(req: FastifyRequest, reply: FastifyReply) {
   const { id } = req.params as {
